@@ -92,7 +92,7 @@ C# 7 以降では、`is` および [switch](../../../csharp/language-reference/k
 
 - *expr* が、*type* インターフェイスを実装する型のインスタンスである。
 
-*exp* が `true` で `is` が `if` ステートメントと共に使用されている場合は *varname* への代入が行われ、そのローカル スコープは `if` ステートメント内に限定されます。
+*exp* が `true` で `is` が `if` ステートメントと共に使用されている場合は *varname* への代入が行われ、そのローカル スコープは `if` ステートメントを含むブロック内に限定されます。
 
 次の例では、`is` 型のパターンを使用して、型 <xref:System.IComparable.CompareTo(System.Object)?displayProperty=nameWithType> のメソッドの実装を提供します。
 
